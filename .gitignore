@@ -1,0 +1,40 @@
+# package directories
+node_modules
+jspm_packages
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Webpack directories
+.webpack
+
+# Yarn
+yarn-error.log
+
+# Coverage
+coverage
+
+# Transpiled files
+build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+# Dotenv
+!.env.example
+.env*
