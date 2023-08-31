@@ -3,7 +3,8 @@
     "es2021": true,
     "node": true
   },
-  "extends": "standard-with-typescript",
+  "extends": ["standard-with-typescript", "prettier"],
+  "plugins": ["prettier"],
   "overrides": [
     {
       "env": {
@@ -19,5 +20,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {}
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
