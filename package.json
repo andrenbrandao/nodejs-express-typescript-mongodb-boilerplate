@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple boilerplate to quickstart an app with Nodejs, TypeScript and Express.",
   "scripts": {
+    "start:dev": "npx nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,6 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.5.7",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
 }
