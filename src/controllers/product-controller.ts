@@ -3,11 +3,11 @@ import { type Response, type Request } from 'express';
 
 class ProductController {
   static list(req: Request, res: Response): Response {
-    return res.send(['Socks', 'Shirts']);
+    return res.json(['Socks', 'Shirts']);
   }
 
   static create(req: Request, res: Response): Response {
-    return res.send('Product created!');
+    return res.json('Product created!');
   }
 }
 
