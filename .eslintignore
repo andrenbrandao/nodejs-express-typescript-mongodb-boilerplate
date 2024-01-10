@@ -2,3 +2,4 @@ node_modules
 coverage
 build
 jest.config.js
+commitlint.config.js
