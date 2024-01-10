@@ -11,6 +11,7 @@ It contains multiple features and the test suite is already prepared for e2e and
 - Pre-commit hooks with [Husky](https://typicode.github.io/husky/)
 - Linting with [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
 - [Lint-staged](https://github.com/lint-staged/lint-staged) to run linting before commits
+- Commit message linting with [Commitlint](https://github.com/conventional-changelog/commitlint)
 - Testing with [Jest](https://jestjs.io/)
 - API Testing with [Supertest](https://github.com/ladjs/supertest)
 - In-Memory MongoDB for Integration Testing with [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server)
